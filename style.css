@@ -1,0 +1,139 @@
+{box-sizing: border-box;}
+html {font:normal 100%/1.5 'Helvetica','Arial','Helvetica Neue',sans-serif;}
+bady {
+    position: relative;
+}
+h1 {
+    position:absolute;
+    bottom: 30rem;
+    left:2.5rem;
+    font-size:2rem;
+    padding: 1rem;
+    background-color: #ffffff;
+    border: 1.5px solid #DDD;
+}
+
+.box{
+    margin: 0 0 1rem 0;
+}
+
+.box-fm {
+    margin: 0 0 1rem 0;
+}
+
+.box-em {
+    margin: 0 0 1rem 0;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+#name{
+    margin-top: 2.8rem;
+}
+
+#form{
+    justify-content: center;
+    background-color: #F5F5F5;
+    margin: auto;
+    margin-top: 4rem；
+    padding:2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 1.5px solid #DDD;
+    max-width: 50rem;
+    font-size: 1rem;
+    font-family:'Helvetica','Arial','Helvetica Neue',sans-serif;
+    border-radius: 0.2rem;
+}
+
+#submit {
+    background-color: #6495ED;
+    color: #F5F5F5;
+    width: 23rem;
+    padding:0.8rem;
+    border-style: none;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    margin-bottom: 0.6rem;
+    margin-top: 2rem;
+}
+
+#fname {
+    border: 1.5px solid #DDD;
+    padding: 0.4rem;
+    display: inline-block;
+    width: 20rem;
+    border-radius: 0.2rem;
+}
+
+#email {
+    border:1.5px solid #DDD;
+    padding: 0.4rem;
+    width: 20rem;
+    border-radius: 0.2rem;
+    display: inline-block;
+    
+}
+
+#message {
+    border: 1.5px solid #DDD;
+    padding:2rem;
+    display:inline-block;
+    width: 18.6rem;
+    border-radius: 0.2rem;
+       
+}
+
+@media only screen and (min-width: 40rem){
+    .box{
+        margin: 0 0 1rem 0;
+    }
+    
+    label{
+        display:block;
+    }
+    
+    #form{
+        position: relative;
+        max-width: 50rem;
+        margin-top: 4rem;
+        margin: auto;
+    }
+    
+    h1 {
+        left: 14rem;
+        z-index: 1;
+        bottom: 24rem;
+        
+    }
+    
+    .box-em {
+        position: absolute;
+        right: 2rem;
+        bottom: 16.5rem;
+        
+    }
+    
+    #fname {
+        width: 20rem;
+    }
+    
+    #email {
+        width: 20rem;
+        
+    }
+    
+    #message {
+        width:45.5rem;
+        
+    }
+    
+    #submit {
+        width:8rem;
+    }
+    
+}
+
